@@ -1,7 +1,7 @@
-CFLAGS=
-DEBUG=-g
-CC=clang
-LINKLIBS=-lreadline -lncurses
+CFLAGS =
+DEBUG =-g
+CC :=clang
+LINKLIBS =-lreadline -lncurses
 
 all: shell
 

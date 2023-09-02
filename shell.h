@@ -2,6 +2,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
+
+#ifndef _GNU_SOURCE
+# define _GNU_SOURCE
+#endif
+
 #include <readline/readline.h>
 #include <errno.h>
 #include <sys/wait.h>
